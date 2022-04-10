@@ -1,23 +1,27 @@
-/*div要素全体にリンクをつけるために必要な要素*/
-.linkbox {
+#links ul{
     position: relative;
+    border: 2px solid #ccc;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    list-style: none;
 }
-.linkbox a {
+ #links ul a{
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    height:100%;
-    width: 50%;
-}
-
-/* 以下見た目をわかりやすくするための設定*/
-.linkbox {
-    border: solid 3px #000000;
-}
-.linkbox a:hover{/* マウスオーバー時に色変更*/
-    opacity: 0.1;
-    background-color: #000000;
-}
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #links ul a:hover{
+        opacity:0.6;
+        filter: alpha(opacity=60);
+        -ms-filter: "alpha( opacity=60 )";
+        background: #fff;
+  }
 
 img.img1
 {
