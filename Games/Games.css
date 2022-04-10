@@ -1,9 +1,9 @@
 /*div要素全体にリンクをつけるために必要な要素*/
-.linkbox {
+#linkbox {
     position: relative;
 
 }
-.linkbox a {
+#linkbox a {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,10 +12,10 @@
 }
 
 /* 以下見た目をわかりやすくするための設定*/
-.linkbox {
+#linkbox {
     border: solid 3px #000000;
 }
-.linkbox a:hover{/* マウスオーバー時に色変更*/
+#linkbox a:hover{/* マウスオーバー時に色変更*/
     opacity: 0.1;
     background-color: #000000;
 }
