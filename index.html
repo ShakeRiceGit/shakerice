@@ -8,7 +8,7 @@
     </head><!-- ここまでがうらの設定ですよという宣言 -->
     <body><!-- ここからページに表示される内容ですよという宣言 -->
         <h1 align="center">ShakeRice</h1><!-- 見出し -->
-        <div class="menu" id="menu">
+        <div class="menu" id="menu"><!--MENU-->
             <label for="menu_bar01">メニュー</label>
             <input type="checkbox" id="menu_bar01" />
             <ul id="links01">
@@ -17,10 +17,22 @@
                 <li><a href="Games/Games.html">ゲーム</a></li>
             </ul>
         </div>
-        <p>ホームです。</p>
-
-
-        
-        <p>右上のメニューをクリック！！！</p><!-- 本文 -->
+        <div id="contents" style="height: auto !important;">
+            <div id="contentInner">
+                <p>ホームです。</p>
+                <p>右上のメニューをクリック！！！</p>
+            </div>
+            <div id = "side">
+                <div class="SNS">
+                    <a class="twitter-timeline"
+                        data-width="350" data-height="350"
+                        data-theme="dark"
+                        href="https://twitter.com/SR_Shake_Rice?ref_src=twsrc%5Etfw">
+                        Tweets by SR_Shake_Rice</a>
+                        <script async src="https://platform.twitter.com/widgets.js"
+                            charset="utf-8"></script> 
+                </div>
+            </div>
+        </div>
     </body><!-- ここまでがページに表示される内容ですよという宣言 -->
 </html><!-- ここまでがHTMLですという終わりの宣言 -->
