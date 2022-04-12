@@ -8,12 +8,13 @@
     top: 0;
     left: 0;
     height:100%;
-    width: 50%;
+    width: 280px;
 }
 
 /* 以下見た目をわかりやすくするための設定*/
 #linkbox {
     border: solid 3px #000000;
+    width: 280px;
 }
 #linkbox a:hover{/* マウスオーバー時に色変更*/
     opacity: 0.1;
