@@ -1,10 +1,11 @@
 #links ul{
     position: relative;
-    border: 2px solid #ccc;
+    border: 2px solid #000000;
     padding: 20px;
     overflow: hidden;
     margin-bottom: 50px;
     list-style: none;
+    width: 280px;
 }
  #links ul a{
     position: absolute;
