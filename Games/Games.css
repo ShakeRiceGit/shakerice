@@ -1,7 +1,6 @@
 /*div要素全体にリンクをつけるために必要な要素*/
 #linkbox {
     position: relative;
-
 }
 #linkbox a {
     position: absolute;
