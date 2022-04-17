@@ -26,6 +26,15 @@
     padding: 0 1em;
 }
 
+#main{
+  float: left;
+  width: 600px;
+}
+
+#contentInner{
+  display:flex;/*サイドバーとメインコンテンツを横並びにする*/
+}
+
 #side{
     float: right;
     width: 400px;
